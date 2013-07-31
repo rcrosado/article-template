@@ -1,12 +1,10 @@
 # Scientific article template
 
-This repository is used as a template to start a new scientific
-article. Currently it's more or less configured for the IWA journals, in
-particular the Journal of Water and Health. 
+This repository is used as a template to start a new scientific article. Currently it's more or less configured for the IWA journals, in particular the Journal of Water and Health. 
 
 After writing *manuscript.md*, *tables.md*, and *figures.md*, running 
 
-``` bash
+```bash
 ./knit.sh
 ```
 
