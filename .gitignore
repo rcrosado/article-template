@@ -1,0 +1,15 @@
+# ignore files inside automatic directories and revisions
+auto/
+revisions/
+
+# ignore backup files
+*~
+
+# ignore compiled manuscript
+*.docx
+*.pdf
+*.tex
+*.odt
+
+# reverse previous ignore for reference files
+!reference*
