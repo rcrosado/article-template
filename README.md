@@ -12,5 +12,5 @@ will convert the documents to odt format, which should then be saved to docx
 from within LibreOffice. I'm hoping to improve on this later, and make it more
 general.
 
-Oslo, 31 July 2013
+Oslo, 31 July 2013  
 Ricardo Rosado
