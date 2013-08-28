@@ -1,15 +1,26 @@
-# ignore files inside automatic directories and revisions
+# ignore files inside directories below 
 auto/
 revisions/
+tables/
 
 # ignore backup files
 *~
+\#*#
+
+# ignore hidden R files
+.Rhistory
 
 # ignore compiled manuscript
+*.doc
 *.docx
 *.pdf
 *.tex
 *.odt
+*.html
 
-# reverse previous ignore for reference files
+# ignore temp files created by diff script
+*diff*
+
+# reverse previous ignore for reference files and shell scripts
 !reference*
+!*.sh
